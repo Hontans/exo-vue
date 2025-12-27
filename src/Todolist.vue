@@ -9,7 +9,9 @@
 </form>
 
 <ul>
-    <li v-for="task in todolist">{{ task.titel }} <button @click="remouveTask(task)">valider</button></li>
+    <li v-for="task in todolist" :key="task.titel">
+        <input type="checkbox" v-if="task.completed == false" @click="remouveTask(task)"> {{ task.titel }}
+    </li>
 </ul>
 </template>
 
