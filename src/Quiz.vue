@@ -1,10 +1,4 @@
 <template>
-    <nav>
-        <ul>
-            <li><a href="./Todolist.vue">Todolist</a></li>
-            <li><a href="./Quiz.vue">Quiz</a></li>
-        </ul>
-    </nav>
     {{ quiz }}
 </template>
 

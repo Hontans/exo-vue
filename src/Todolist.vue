@@ -1,11 +1,4 @@
 <template>
-    <nav>
-        <ul>
-            <li><a href="./Todolist.vue">Todolist</a></li>
-            <li><a href="./Quiz.vue">Quiz</a></li>
-        </ul>
-    </nav>
-
     <h1>Todolist</h1>
     <h2 v-if="todolist.length === 0">Tu n'as toujours pas de tâche à faire ?</h2>
     <h2 v-else>Tu doit acomplire ces tache !</h2>
